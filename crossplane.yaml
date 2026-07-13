@@ -18,4 +18,7 @@ spec:
   dependsOn:
     - configuration: xpkg.upbound.io/upbound/configuration-gcp-gke
       # renovate: datasource=github-releases depName=upbound/configuration-gcp-gke
-      version: "v0.10.0"
+      version: "v0.11.2"
+    - function: xpkg.upbound.io/crossplane-contrib/function-patch-and-transform
+      # renovate: datasource=github-releases depName=crossplane-contrib/function-patch-and-transform
+      version: "v0.9.0"
