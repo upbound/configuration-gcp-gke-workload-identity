@@ -7,7 +7,7 @@ on:
     types: [labeled]
 jobs:
   e2e:
-    uses: upbound/official-providers-ci/.github/workflows/pr-comment-trigger.yml@main
+    uses: upbound/official-providers-ci/.github/workflows/pr-comment-trigger.yml@8965579a213ba2b249225fa311178ac66f107daf # main
     with:
       package-type: configuration
     secrets:
